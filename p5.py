@@ -6,7 +6,7 @@ from tensorflow.keras.layers import LSTM, Dense, Embedding
 from tensorflow.keras.optimizers import Adam
 
 # Load the dataset
-with open("lt.txt", 'r', encoding='utf-8') as f:
+with open("LSTM.txt", 'r', encoding='utf-8') as f:
     text_data = f.read().lower()
 
 # Tokenize the text
